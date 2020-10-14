@@ -164,7 +164,7 @@ if($pseudo and $email and $pass and $confpass){
    <body>
        <div align="center" id="div-item">
 
-         <form name="fourmulaire" method="POST" action="" id="forms" onsubmit="return verifie()">
+         <form name="fourmulaire" method="POST" action="" id="forms" onsubmit="return afficher()">
            <h2 style="color=white">Inscription</h2>
            <br />
             <table>
