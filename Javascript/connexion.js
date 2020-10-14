@@ -5,5 +5,5 @@ function verifie(){
   var mdp = document.forms['formulaire']['mdp'];
   var mdp2 = document.forms['formulaire']['mdp2'];
 
-  console.log(pseudo.value, mail.value, mdp.value);
+  alert(pseudo.value, mail.value, mdp.value);
 }
