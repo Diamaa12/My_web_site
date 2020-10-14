@@ -1,0 +1,68 @@
+html{
+    margin: 0px; 
+    padding: 0px;
+    overflow-x: hidden;
+}
+body{
+    color: #222;
+    margin: 0px;
+    overflow-x: hidden;
+}
+#conteneur{
+     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+     overflow-x: hidden;
+     
+}
+.grDiv{
+    position: relative;
+    right: 5%;
+    display: inline-block;
+    padding-right: 5%;
+    margin: 100px auto;
+    padding: 50px;
+    width: 60%;
+    background-color: #413939;
+  background-color: whitesmoke;
+    font-size: 1.1em;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #222;
+}
+.grDiv label{
+    color: #222;
+}
+h2{
+    color: inherit;
+    font-family: 'Libre Franklin', sans-serif;
+     color: #222;
+}
+input{
+    margin-top: 10px;
+    padding: 4px;
+    border: 3px solid black;
+}
+
+@media screen and (max-width : 780px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+         color: black;
+        overflow-x: hidden;
+
+    }
+
+    .grDiv {
+        position: relative;
+        left: 3px;
+        width: 95%;
+        margin: 3px auto;
+        overflow: hidden;
+    }
+    table{
+        position: relative;
+        left: -48px;
+        
+    }
+}

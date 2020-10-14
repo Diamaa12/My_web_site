@@ -1,0 +1,46 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    margin: 0px;
+     
+}
+#div_principal{
+        display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+}
+h1{
+display:inline;
+ padding:15px auto;
+  position:relative;
+  left:30%;
+  margin-top:20px;
+  background-color:whitesmoke;
+  text-align:center;
+  font-family:cursive, sans-serif;
+  font-size:1em;
+}
+h3{
+	 font-family:cursive, sans-serif;
+  font-size:1em;
+}
+#div-first{
+  width:70%;
+  background-color:whitesmoke;
+  font-family:cursive, sans-serif;
+  margin:5% auto;
+  padding:5%;
+  border-bottom:1px dashed #101010;
+}
+#div_twice{
+		  width:70%;
+  background-color:whitesmoke;
+  font-family:cursive, sans-serif;
+  margin:5% auto;
+  padding:5%;
+  border-bottom:1px  dashed #101010;
+}

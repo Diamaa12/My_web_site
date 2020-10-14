@@ -1,0 +1,269 @@
+html{
+    padding: 0px;
+    margin: 0px;
+   overflow-x: hidden;
+}
+body{
+    margin: 0px;
+  padding:0px;
+}
+#conteneur{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#conteneur1{
+background-color:whitesmoke;
+  position:relative;
+  width:50%;
+ margin:10% auto;
+  margin-bottom:-100px;;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size:1.3em;
+  font-weight:bold 300;
+}
+#cforum{
+    position: relative;
+    width: 80%;
+   padding-bottom: 15px;
+    margin: auto;
+     font-family: 'Karla', sans-serif;
+    color: rgb(0,5,5);
+    background-color: whitesmoke;
+    flex: 1;
+}
+a{
+  color:green;
+  font-weight: bold;
+  	
+}
+a>span{
+text-decoration:underline;
+}
+.msgacueil{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    margin: 10px auto;
+    text-align: center;
+    display: inline;
+    position: relative;
+    left: 35%;
+    margin-top: 20px;
+}
+.para4{
+
+    position: relative;
+    color: rgb(0, 10, 0);
+    right: 80%;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 100;
+    font-size: 0.6em;
+    padding: 5px;
+    text-align: center;
+    
+}
+#cforum > h2{
+    position: relative;
+    left: 40%; 
+}
+#cforum > h2 > strong {
+    color: green;
+}
+#cforum > a{
+    color: green;
+    font-size: 1.5em;
+    position: relative;
+    left: 80%;
+}
+.categories{
+    width: 50%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-top: 15px;
+    position: relative;
+    left: 25%;
+    margin-bottom: 15px;
+}
+.categories > h2{
+    text-align: center;
+    border: 1px solid black;
+    font-size: 0.7em;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.categories > a{
+    text-decoration: none;
+    
+    position: relative;
+    width: 90%;
+    margin-top: 5px;
+}
+#sujet{
+      width: 50%;
+    background-color:  white;
+    font-size: 0.5em;
+    color: black;
+    padding: 6px;
+    margin-top: 5px;
+    position: relative;
+   
+    left: 25%;
+    border-bottom: 2px solid rgb(0,10,5);
+}
+#sujet a{
+    text-decoration: none;
+}
+.sujet{
+     font-size: 0.7em;
+    font-family: 'Libre Franklin', sans-serif;
+    
+    padding: 10px;
+    
+}
+.sujet  h2 {
+   display: inline;
+    font-weight: 300;
+    font-size: 1.2em;
+        font-family: 'Libre Franklin', sans-serif;
+    position: relative;
+    left: 6%;
+    margin-bottom: 5px;
+}
+.sujet a{
+    text-decoration: none;
+    position: relative;
+    left: 30%;
+    
+}
+.post{
+      width: 50%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-top: 5px;
+    position: relative;
+    left: 25%;
+}
+.post span{
+    padding: 3px;
+    color: white;
+    font-family: cursive;
+}
+.postForm{
+    margin-top: 15px;
+   
+   
+    position: relative;
+    left: 25%;
+    border-bottom: 5px solid black;
+}
+.avatar{
+    border-radius: 65%;
+float: left;
+    width: 60px;
+    height: 60px;
+}
+.span1{
+    border: 1px solid black;
+    color: black;
+}
+.contenue{
+   
+    position: relative;
+    left: 10px;
+    display: inline;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+.para5{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+}
+.h21{
+   
+    
+}
+.postForm{
+    width: 50%; 
+}
+#repondre{
+    display: inline;
+    position: relative;
+    left: 50%;
+    top: 5px;
+}
+.infopara{
+    width: 50%;
+    margin: 10% auto;
+  
+}
+.h31{
+     font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+  
+    display: inline;
+    position: relative;
+    width: auto;
+   left: 35%;
+    padding: 5px;
+}
+.h31 > #para5{
+    display: inline;
+   
+    color:#118924
+}
+.h31 > #para5 > a{
+     color: #108C31
+}
+.h31 > #para5 >span{
+    color: deepskyblue;
+}
+@media screen and (max-width : 780px){
+  #conteneur{
+  	
+  }
+  #conteneur1{
+    width:90%;
+    margin-bottom:0px;
+
+  }
+  #conteneur1 > .infopara{
+  	width:80%;
+  }
+    #cforum{
+        width: 98%;
+    }
+    .msgacueil{
+        position: relative;
+        left: 0px;
+        font-size: 1.3em;
+        padding: 5px;
+    }
+    .h31{
+        position: relative;
+        left: 0px;
+        font-size: 1.1em;
+    }
+    .para4{
+        position: relative;
+        right: 0px;
+        font-weight: bold; 
+
+    }
+     
+	
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+}

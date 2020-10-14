@@ -1,0 +1,27 @@
+html{
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  position: relative;
+
+  width: 100%;
+  background-color: #EEE;
+}
+#ul1{
+position: relative;
+width: 100%;
+margin: 0px;
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(0, 0, 0, 0.5);
+padding: 50px;
+}
+li{
+  list-style-type: none;
+  display: inline;
+  margin: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+}

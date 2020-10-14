@@ -1,0 +1,19 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+}
+#conteneur{
+         display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#conteneur>div{
+    flex: 1;
+}
+.titre2{
+   font-size: 1.1em;
+    font-family: 'Libre Franklin', sans-serif;
+}

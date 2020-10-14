@@ -1,0 +1,135 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    margin: 0px;
+    background-image: url("../Images/kilikowal.jpg");
+    background-repeat: repeat-x;
+     
+}
+
+
+h2{
+    color: whitesmoke;
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: rgba(95, 161, 196, 0.9);
+    border-radius: 15px 15px 0px 0px;
+}
+#div-item{
+    margin: 100px auto;
+    width: 60%;
+    font-size: 1.2em;
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    flex: 1;
+    overflow: hidden;
+    
+}
+
+#forms{
+    position: relative;
+    height: 80%;
+    border-radius: 15px;
+    background-color: rgba(0,10,0,0.3);
+    width: 60%;
+    padding-bottom: 3%;
+}
+
+#forms label{
+    display: inline-block;
+     margin-top: 50px;
+}
+#div-item input{
+    margin-top: 50px;
+    border: 2px solid grey;
+    color: white;
+    padding: 15px;
+    background-color: rgba(0,10,0,0.5);
+    border-radius: 4px;
+   
+}
+#div-item input:focus{
+    
+    border-color: cadetblue;
+    outline: none;
+     box-shadow: 0 0 5px  cadetblue;
+    
+}
+#div-item > h2{
+    font-size: 1em;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #222;
+    
+}
+#forms .b_submit{
+    background-color: rgba(0, 0, 10, 0.5);
+    border: 3px solid white;
+    padding: 20px;
+    width: 75%
+}
+#forms .b_submit:hover{
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+    
+  
+}
+.donner{
+    font-size: 0.7em;
+    color: rgb(255, 255, 2255);
+}
+.donner > span{
+      font-size: 1.1em;
+    color: green;
+    font-weight: bold;
+}
+.donner > a{
+    font-size: 1.1em;
+    color: green;
+    font-weight: bold;
+}
+#small{
+    color: red;
+    background-color: yellow;
+    padding: 20px;
+}
+@media screen and (max-width : 780px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+         color: black;
+        overflow-x: hidden;
+
+    }
+
+    #div-item {
+        position: relative;
+        left: 1px;
+        width: 95%;
+        margin: 3px auto;
+        overflow: hidden;
+        
+    }
+    #forms{
+      
+        width: 100%;
+    
+    }
+    table{
+        position: relative;
+        left: -48px;
+        
+    }
+    input{
+        padding: 0px;
+        height: 10px;
+    }
+    label{
+        font-family: fantasy;
+        font-weight: 0.8em;
+    }
+  
+}

@@ -1,0 +1,260 @@
+#head1 {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+header {
+    font-family: Verdana, Calibri, sans-serif;
+    margin: 0px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+#titre1 {
+    width: 45%;
+    display: inline;
+    text-align: center;
+   left: 10%;
+    position: relative;
+
+    color: white;
+
+}
+
+nav > ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav > ul > li {
+    float: left;
+    position: relative;
+    margin-left: 10%;
+}
+
+.submenu {
+    display: none;
+}
+
+nav {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    background-color: rgba(95, 161, 196, 0.9);
+}
+
+nav > ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav > ul > li > a {
+    padding: 20px 30px;
+    color: white;
+}
+#html > a >img{
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+
+.submenu li {
+    border-bottom: 1px solid #CCC;
+}
+
+.submenu li a {
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 200px;
+}
+
+#html:hover {
+    border-top: 5px solid #FEFEFE;
+    background-color: RGBa(31, 109, 230, 0.5);
+}
+
+#java:hover {
+    border-top: 5px solid #FEFEFE;
+    background-color: RGBa(31, 109, 230, 0.5);
+}
+
+#php:hover {
+    border-top: 5px solid #FEFEFE;
+    background-color: RGBa(31, 109, 230, 0.5);
+}
+
+#python:hover {
+    border-top: 5px solid #FEFEFE;
+    background-color: RGBa(31, 109, 230, 0.5);
+}
+
+nav > ul > li:hover a {
+    padding: 15px 30px 20px 30px;
+}
+
+
+#html .submenu {
+    background-color: rgba(155, 188, 230, 0.4);
+}
+
+#java .submenu {
+    background-color: rgba(155, 188, 230, 0.4);
+}
+
+#php .submenu {
+    background-color: rgba(155, 188, 230, 0.4);
+}
+
+#python .submenu {
+    background-color: rgba(155, 188, 230, 0.4);
+}
+
+.submenu li:hover a {
+    color: #EEE;
+    font-weight: bold;
+}
+
+#html .submenu li:hover {
+    background-color: rgb(155, 188, 230);
+}
+
+#java .submenu li:hover {
+    background-color: rgb(155, 188, 230);
+}
+
+#php .submenu li:hover {
+    background-color: rgb(155, 188, 230);
+}
+
+#python .submenu li:hover {
+    background-color: rgb(155, 188, 230);
+}
+
+.toggle{
+    background-color: dodgerblue;
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    box-sizing: border-box;
+    color: #FFF;
+    font-size: 30px;
+    display: none;
+}
+.toggle > a{
+    display: none;
+}
+
+
+
+.menu-mobile {
+   
+    border: 1px solid white;
+   
+    display: none;
+}
+
+nav input[type=checkbox] {
+    display: none;
+}
+
+nav input[type=checkbox]:checked ~ ul {
+    display: block;
+}
+
+@media screen and (max-width : 780px) {
+    .menu-mobile {
+        display: none;
+        color: white;
+        background-color: darkgreen;
+        text-align: center;
+        padding: 15px 0px;
+    }
+
+    nav ul {
+        display: none;
+    }
+    nav ul li, nav ul li a{
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+    }
+    nav ul li a, nav ul li:hover a {
+        padding: 10px 0px 10px 0px;
+       
+    } 
+    nav li:hover .submenu{
+        display: block;
+        position: static;
+    }
+    .toggle{
+        display: block;
+    }
+    .active{
+        display: block;
+    }
+   
+
+}
+#titre1 > a img{
+    backface-visibility: hidden;
+    width: auto ;
+    height: auto;
+    position: relative;
+    right: 5%;
+    top: 15px;
+
+}
+#html a{
+    padding: 5px;
+}
+#html > a:hover{
+    margin-top: -5px;
+}
+#html img{
+    width: 40px;
+    height: 45px;
+    padding: auto;
+    width: 100%;
+}
+.toggle > a{
+    display: inherit;
+   text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.5em;
+
+    margin: 0px;
+    width: 53%;
+    color: white;
+    position: absolute;
+    text-align: left;
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+

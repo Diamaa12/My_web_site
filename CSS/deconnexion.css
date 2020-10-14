@@ -1,0 +1,31 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#conteneur{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#conteneur > div{
+flex:1;
+}
+h2{
+	display:inline;
+  text-align:center;
+  font-family: serif, verdana;
+  font-size:1.0em;
+  color:#555;
+  padding:5px;
+  position:relative;
+  top:50px;
+  left:25%;
+}
+a{
+    color: green;
+    text-decoration: underline;
+}

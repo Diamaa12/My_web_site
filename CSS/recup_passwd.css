@@ -1,0 +1,33 @@
+html {
+    margin: 0px;
+    padding: 0px;
+ 
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+  	padding:0px;
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#delimit {
+   position: relative;
+   bottom: 0px;
+  flex: 1;
+}
+
+table {
+    position: relative;
+    margin: 5% auto;
+   
+}
+
+table,
+tr,
+td {}
