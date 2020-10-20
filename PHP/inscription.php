@@ -164,7 +164,7 @@ if($pseudo and $email and $pass and $confpass){
    <body>
        <div align="center" id="div-item">
 
-         <form name="fourmulaire" method="POST" action="" id="forms" onsubmit="return afficher()">
+         <form  method="POST" action="" id="forms">
            <h2 style="color=white">Inscription</h2>
            <br />
             <table>
@@ -174,6 +174,7 @@ if($pseudo and $email and $pass and $confpass){
                   </td>
                   <td>
                      <input type="text" placeholder="Votre pseudo" id="pseudo" name="pseudo" value="<?php if(isset($pseudo)) { echo $pseudo; } ?>" />
+                     <small></small>
                   </td>
                </tr>
                <tr>
