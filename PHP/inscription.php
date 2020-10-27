@@ -183,6 +183,7 @@ if($pseudo and $email and $pass and $confpass){
                   </td>
                   <td>
                      <input type="email" placeholder="Votre mail" id="mail" name="mail" value="<?php if(isset($email)) { echo $email; } ?>" /><span id="error"></span>
+                     <small></small>
                   </td>
                </tr>
                <tr>
@@ -199,6 +200,7 @@ if($pseudo and $email and $pass and $confpass){
                   </td>
                   <td>
                      <input type="password" placeholder="Votre mot de passe" id="mdp" name="mdp" />
+                     <small></small>
                   </td>
                </tr>
                <tr>
