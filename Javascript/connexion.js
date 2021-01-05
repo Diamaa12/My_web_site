@@ -18,7 +18,7 @@ function valider(){
   if (psw.value == '') {
     psw.style.border = 'thick solid red';
     span.innerHTML = 'Veillez remplir le champs mot de passe.';
-    span.style.color = 'red';
+    span.style.color = '#c50000';
     return false;
   }
   console.log(psd);
